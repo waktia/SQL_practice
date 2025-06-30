@@ -1,0 +1,11 @@
+SELECT D.DEPT_NAME FROM EMPLOYEES E JOIN DEPARTMENTS D ON E.DEPARTMENT_ID = D.DEPARTMENT_ID GROUP BY D.DEPT_NAME HAVING COUNT(*) < 4;
+
+DEPT_NAME
+--------------------------------------------------
+カスタマーサポート部
+人事部
+情報システム部
+法務部
+研究開発部
+経理部
+総務部

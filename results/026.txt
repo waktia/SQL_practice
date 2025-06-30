@@ -1,0 +1,5 @@
+SELECT COUNT(*) FROM EMPLOYEES WHERE PHONE IS NOT NULL;
+
+1
+-----------
+         17

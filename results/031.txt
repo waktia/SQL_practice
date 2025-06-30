@@ -1,0 +1,13 @@
+SELECT DEPARTMENT_ID, AVG(AGE) FROM EMPLOYEES GROUP BY DEPARTMENT_ID HAVING AVG(AGE) >= 30;
+
+DEPARTMENT_ID 2
+------------- -----------
+            1          45
+            2          38
+            3          35
+            5          40
+            6          30
+            7          35
+            8          30
+            9          45
+           10          48

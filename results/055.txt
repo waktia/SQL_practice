@@ -1,0 +1,6 @@
+SELECT E.NAME, D.DEPT_NAME FROM EMPLOYEES E JOIN DEPARTMENTS D ON E.DEPARTMENT_ID = D.DEPARTMENT_ID WHERE (DAYS(CURRENT DATE) - DAYS(E.HIREDATE)) = (SELECT MAX(DAYS(CURRENT DATE) - DAYS(HIREDATE)) FROM EMPLOYEES);
+
+
+NAME                                               DEPT_NAME
+-------------------------------------------------- --------------------------------------------------
+加藤 和夫                                          研究開発部

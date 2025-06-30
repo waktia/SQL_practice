@@ -1,0 +1,5 @@
+SELECT NAME, AGE FROM EMPLOYEES WHERE AGE = (SELECT MAX(AGE) FROM EMPLOYEES);
+
+NAME                                               AGE
+-------------------------------------------------- -----------
+加藤 和夫                                                   60

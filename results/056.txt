@@ -1,0 +1,14 @@
+SELECT NAME FROM EMPLOYEES E1 WHERE 1 = (SELECT COUNT(*) FROM EMPLOYEES E2 WHERE E1.DEPARTMENT_ID = E2.DEPARTMENT_ID AND E2.SALARY > E1.SALARY);
+
+NAME
+--------------------------------------------------
+田中 美咲
+中村 真理
+渡辺 彩
+青木 由美
+藤田 隆
+島田 優
+安藤 正樹
+原田 結花
+和田 晴香
+上野 彩乃

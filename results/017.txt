@@ -1,0 +1,5 @@
+SELECT NAME, SALARY FROM EMPLOYEES WHERE NAME LIKE '%山%' AND SALARY >= 500000;
+
+NAME                                               SALARY
+-------------------------------------------------- -----------
+山田 太郎                                               600000

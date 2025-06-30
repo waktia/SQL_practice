@@ -1,0 +1,14 @@
+SELECT DEPARTMENT_ID, AVG(SALARY) FROM EMPLOYEES GROUP BY DEPARTMENT_ID ORDER BY AVG(SALARY) DESC;
+
+DEPARTMENT_ID 2
+------------- -----------
+           10      655000
+            9      623333
+            1      600000
+            5      570000
+            7      545000
+            2      543333
+            3      522500
+            6      477500
+            8      465000
+            4      442500

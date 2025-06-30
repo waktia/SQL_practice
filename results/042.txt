@@ -1,0 +1,19 @@
+SELECT NAME, DEPARTMENT_ID FROM EMPLOYEES E1 WHERE SALARY > (SELECT AVG(SALARY) FROM EMPLOYEES E2 WHERE E1.DEPARTMENT_ID = E2.DEPARTMENT_ID);
+
+NAME                                               DEPARTMENT_ID
+-------------------------------------------------- -------------
+山田 太郎                                                      3
+鈴木 次郎                                                      4
+田中 美咲                                                      5
+加藤 和夫                                                      9
+小林 結衣                                                      6
+松本 翔太                                                      1
+青木 由美                                                      3
+森本 拓也                                                      7
+藤田 隆                                                        2
+安藤 正樹                                                      1
+久保田 悠                                                      5
+北村 さくら                                                    8
+西田 大輔                                                      2
+上野 彩乃                                                      6
+長谷川 健                                                     10

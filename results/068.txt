@@ -1,0 +1,5 @@
+SELECT NAME, (DAYS(CURRENT DATE) - DAYS(HIREDATE)) / 365 AS YEARS_OF_SERVICE FROM EMPLOYEES WHERE (DAYS(CURRENT DATE) - DAYS(HIREDATE)) / 365 = (SELECT MAX((DAYS(CURRENT DATE) - DAYS(HIREDATE)) / 365) FROM EMPLOYEES);
+
+NAME                                               YEARS_OF_SERVICE
+-------------------------------------------------- ----------------
+加藤 和夫                                                        25

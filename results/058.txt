@@ -1,0 +1,14 @@
+SELECT D.DEPT_NAME, COALESCE(COUNT(E.ID),0) FROM DEPARTMENTS D LEFT JOIN EMPLOYEES E ON D.DEPARTMENT_ID = E.DEPARTMENT_ID GROUP BY D.DEPT_NAME;
+
+DEPT_NAME                                          2
+-------------------------------------------------- -----------
+カスタマーサポート部                                         2
+マーケティング部                                             4
+人事部                                                       3
+営業部                                                       4
+情報システム部                                               2
+法務部                                                       2
+研究開発部                                                   3
+経理部                                                       3
+総務部                                                       3
+開発部                                                       4

@@ -1,0 +1,5 @@
+SELECT AVG(AGE) FROM EMPLOYEES;
+
+1
+-----------
+         36

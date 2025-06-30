@@ -1,0 +1,16 @@
+SELECT NAME FROM EMPLOYEES WHERE SALARY IN (SELECT MAX(SALARY) FROM EMPLOYEES GROUP BY DEPARTMENT_ID);
+
+NAME
+--------------------------------------------------
+山田 太郎
+鈴木 次郎
+高橋 陽介
+加藤 和夫
+小林 結衣
+松本 翔太
+森本 拓也
+三浦 愛子
+久保田 悠
+北村 さくら
+西田 大輔
+長谷川 健

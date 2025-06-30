@@ -1,0 +1,5 @@
+SELECT NAME FROM EMPLOYEES WHERE SALARY = (SELECT MAX(SALARY) FROM EMPLOYEES WHERE PHONE IS NULL);
+
+NAME
+--------------------------------------------------
+久保田 悠

@@ -1,0 +1,6 @@
+SELECT E.NAME, D.DEPT_NAME FROM EMPLOYEES E JOIN DEPARTMENTS D ON E.DEPARTMENT_ID = D.DEPARTMENT_ID WHERE E.RETIRE_DATE IS NOT NULL;
+
+NAME                                               DEPT_NAME
+-------------------------------------------------- --------------------------------------------------
+田中 美咲                                          経理部
+加藤 和夫                                          研究開発部

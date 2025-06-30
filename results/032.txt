@@ -1,0 +1,14 @@
+SELECT D.DEPT_NAME, SUM(E.SALARY) FROM EMPLOYEES E JOIN DEPARTMENTS D ON E.DEPARTMENT_ID = D.DEPARTMENT_ID GROUP BY D.DEPT_NAME;
+
+DEPT_NAME                                          2
+-------------------------------------------------- -----------
+カスタマーサポート部                                   1310000
+マーケティング部                                       1910000
+人事部                                                 1630000
+営業部                                                 2090000
+情報システム部                                          930000
+法務部                                                 1090000
+研究開発部                                             1870000
+経理部                                                 1710000
+総務部                                                 1800000
+開発部                                                 1770000

@@ -1,0 +1,14 @@
+SELECT DEPARTMENT_ID, AVG(AGE) FROM EMPLOYEES GROUP BY DEPARTMENT_ID ORDER BY AVG(AGE) ASC;
+
+DEPARTMENT_ID 2
+------------- -----------
+            4          26
+            6          30
+            8          30
+            3          35
+            7          35
+            2          38
+            5          40
+            1          45
+            9          45
+           10          48

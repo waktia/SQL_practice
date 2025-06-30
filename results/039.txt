@@ -1,0 +1,14 @@
+SELECT DEPARTMENT_ID, COUNT(*) FROM EMPLOYEES WHERE PHONE IS NOT NULL GROUP BY DEPARTMENT_ID;
+
+DEPARTMENT_ID 2
+------------- -----------
+            1           2
+            2           1
+            3           3
+            4           2
+            5           1
+            6           3
+            7           1
+            8           1
+            9           2
+           10           1

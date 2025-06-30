@@ -1,0 +1,6 @@
+SELECT NAME, RETIRE_DATE FROM EMPLOYEES WHERE RETIRE_DATE IS NOT NULL;
+
+NAME                                               RETIRE_DATE
+-------------------------------------------------- -----------
+田中 美咲                                          03/31/2023
+加藤 和夫                                          12/31/2022

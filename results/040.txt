@@ -1,0 +1,6 @@
+SELECT DEPARTMENT_ID, COUNT(*) FROM EMPLOYEES WHERE RETIRE_DATE IS NOT NULL GROUP BY DEPARTMENT_ID;
+
+DEPARTMENT_ID 2
+------------- -----------
+            5           1
+            9           1

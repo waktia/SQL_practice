@@ -1,0 +1,7 @@
+SELECT DEPARTMENT_ID, COUNT(*) FROM EMPLOYEES GROUP BY DEPARTMENT_ID HAVING COUNT(*) >= 4;
+
+DEPARTMENT_ID 2
+------------- -----------
+            3           4
+            4           4
+            6           4

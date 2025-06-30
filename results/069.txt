@@ -1,0 +1,14 @@
+SELECT DEPARTMENT_ID, AVG(DAYS(CURRENT DATE) - DAYS(HIREDATE)) / 365 AS AVG_YEARS FROM EMPLOYEES GROUP BY DEPARTMENT_ID;
+
+DEPARTMENT_ID AVG_YEARS
+------------- -----------
+            1          13
+            2           8
+            3           6
+            4           3
+            5          11
+            6           4
+            7           6
+            8           5
+            9          15
+           10          16

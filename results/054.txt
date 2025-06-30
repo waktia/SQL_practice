@@ -1,0 +1,19 @@
+SELECT E.NAME, E.SALARY, D.DEPT_NAME FROM EMPLOYEES E JOIN ( SELECT DEPARTMENT_ID, AVG(SALARY) AS AVG_SAL FROM EMPLOYEES GROUP BY DEPARTMENT_ID ) X ON E.DEPARTMENT_ID = X.DEPARTMENT_ID JOIN DEPARTMENTS D ON E.DEPARTMENT_ID = D.DEPARTMENT_ID WHERE E.SALARY > X.AVG_SAL;
+
+NAME                                               SALARY      DEPT_NAME
+-------------------------------------------------- ----------- --------------------------------------------------
+山田 太郎                                               600000 営業部
+鈴木 次郎                                               480000 開発部
+田中 美咲                                               580000 経理部
+加藤 和夫                                               700000 研究開発部
+小林 結衣                                               510000 マーケティング部
+松本 翔太                                               620000 総務部
+青木 由美                                               530000 営業部
+森本 拓也                                               620000 法務部
+藤田 隆                                                 550000 人事部
+安藤 正樹                                               610000 総務部
+久保田 悠                                               650000 経理部
+北村 さくら                                             500000 情報システム部
+西田 大輔                                               560000 人事部
+上野 彩乃                                               490000 マーケティング部
+長谷川 健                                               680000 カスタマーサポート部

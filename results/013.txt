@@ -1,0 +1,11 @@
+SELECT NAME, DEPARTMENT_ID FROM EMPLOYEES WHERE DEPARTMENT_ID IN (2, 4);
+
+NAME                                               DEPARTMENT_ID
+-------------------------------------------------- -------------
+佐藤 花子                                                      2
+鈴木 次郎                                                      4
+渡辺 彩                                                        4
+藤田 隆                                                        2
+岡田 真一                                                      4
+竹内 翔                                                        4
+西田 大輔                                                      2

@@ -1,0 +1,5 @@
+SELECT COUNT(*) FROM EMPLOYEES WHERE HIREDATE IS NULL;
+
+1
+-----------
+          0

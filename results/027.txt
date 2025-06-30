@@ -1,0 +1,14 @@
+SELECT DEPARTMENT_ID, AVG(SALARY) FROM EMPLOYEES GROUP BY DEPARTMENT_ID;
+
+DEPARTMENT_ID 2
+------------- -----------
+            1      600000
+            2      543333
+            3      522500
+            4      442500
+            5      570000
+            6      477500
+            7      545000
+            8      465000
+            9      623333
+           10      655000

@@ -1,0 +1,8 @@
+SELECT DISTINCT D.DEPT_NAME FROM EMPLOYEES E JOIN DEPARTMENTS D ON E.DEPARTMENT_ID = D.DEPARTMENT_ID WHERE E.PHONE LIKE '090%';
+
+DEPT_NAME
+--------------------------------------------------
+営業部
+法務部
+経理部
+総務部

@@ -1,0 +1,5 @@
+SELECT SUM(SALARY) FROM EMPLOYEES;
+
+1
+-----------
+   16110000

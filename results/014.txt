@@ -1,0 +1,8 @@
+SELECT E.NAME, D.DEPT_NAME FROM EMPLOYEES E JOIN DEPARTMENTS D ON E.DEPARTMENT_ID = D.DEPARTMENT_ID WHERE D.DEPT_NAME = '営業部';
+
+NAME                                               DEPT_NAME
+-------------------------------------------------- --------------------------------------------------
+山田 太郎                                          営業部
+高橋 陽介                                          営業部
+青木 由美                                          営業部
+福田 誠                                            営業部

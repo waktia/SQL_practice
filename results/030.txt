@@ -1,0 +1,14 @@
+SELECT DEPARTMENT_ID, MAX(SALARY) FROM EMPLOYEES GROUP BY DEPARTMENT_ID;
+
+DEPARTMENT_ID 2
+------------- -----------
+            1      620000
+            2      560000
+            3      600000
+            4      480000
+            5      650000
+            6      510000
+            7      620000
+            8      500000
+            9      700000
+           10      680000

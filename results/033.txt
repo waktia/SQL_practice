@@ -1,0 +1,13 @@
+SELECT DEPARTMENT_ID, MIN(AGE) FROM EMPLOYEES GROUP BY DEPARTMENT_ID;
+DEPARTMENT_ID 2
+------------- -----------
+            1          36
+            2          38
+            3          29
+            4          25
+            5          31
+            6          28
+            7          27
+            8          27
+            9          36
+           10          42
